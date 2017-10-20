@@ -1,5 +1,5 @@
 # Breaking the Boy Code Podcast
 
-![alt text](http://jonathonreed.com/img/blog/btbc-logo-white-700-web.jpg "Breaking the Boy Code Podcast Logo")
+[Original Story Design Co.](http://jonathonreed.com/freelancing) © 2017
 
-Design by [Original Story Design Co.](http://jonathonreed.com/freelancing).
+![alt text](http://breakingtheboycode.com/img/btbc-logo-black-500-web.jpg "Breaking the Boy Code Podcast Logo")
