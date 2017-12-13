@@ -44,31 +44,54 @@
 		margin: 0 auto;
 	}
 
+	.width175em {
+		width: 17.5em;
+		margin: 0 auto;
+	}
+
+	.bottommargin2em {
+		margin-bottom: 2em;
+	}
+
+	.topmargin2em {
+		margin-top: 2em;
+	}
+
 /* TYPE */
 
 	h1 {
 		padding: 0.25em 0;
 		font-family: 'Open Sans', sans-serif;
 		font-weight: 700;
-		font-size: 3em;
+		font-size: 4em;
 		text-transform: uppercase;
-		letter-spacing: 0.05em;
+		letter-spacing: 0.03em;
 	}
 
 	h2 {
-		padding: 2em 0 0 0;
+		padding: 0;
 		font-family: 'Open Sans', sans-serif;
 		font-weight: 900;
 		font-size: 1em;
 		text-transform: uppercase;
 		letter-spacing: 0.1em;
-		text-align-last: justify;
 		line-height: 1.2;
 	}
 
 		h2 a {
 			text-decoration: none;
 		}
+
+	h3 {
+		padding: 0;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 700;
+		font-size: 2.5em;
+		text-transform: uppercase;
+		text-align: left;
+		text-align-last: left;
+		letter-spacing: 0.02em;
+	}
 
 	p {
 		margin: 1em 0;
@@ -90,6 +113,15 @@
 				color: #f36b3e;
 			}
 
+	.textaligncenter {
+		text-align: center;
+		text-align-last: center;
+	}
+
+	.textalignjustify {
+		text-align-last: justify;
+	}
+
 	.white {
 		color: #fff;
 	}
@@ -98,13 +130,13 @@
 		color: #151515;
 	}
 
-	.offblack a {
-		color: #151515;
-	}
+		.offblack a {
+			color: #151515;
+		}
 
-	.offblack a:hover {
-		color: #f36b3e;
-	}
+			.offblack a:hover {
+				color: #f36b3e;
+			}
 
 /* LANDING */
 
@@ -145,7 +177,7 @@
 /* SUBPAGE */
 
 	#subpage {
-		width: 60%;
+		width: 50%;
 		margin: 0 auto;
 		padding: 5em 0;
 		text-align: center;
@@ -153,6 +185,39 @@
 
 	img.logo {
 		padding: 0 0 5em 0;
+	}
+
+	img.support {
+	}
+
+/* FOOTER */
+
+	#footer {
+		width: 100%;
+		margin: 0 auto;
+		padding: 6em 0;
+		background-color: #eee;
+		vertical-align: middle;
+	}
+
+	.podcastlinks-fontawesome {
+		display: inline;
+	}
+
+	.podcastlinks-widget {
+		display: none;
+	}
+
+	@media screen and (max-width: 900px) {
+		
+		.podcastlinks-widget {
+			display: block;
+		}
+
+		.podcastlinks-fontawesome {
+			display: none;
+		}
+		
 	}
 
 /* FONTAWESOME */
@@ -184,7 +249,8 @@
 
 		ul.icons li {
 			display: inline-block;
-			padding: 0 1em 0 0;
+			padding: 0 1em 0 1em;
+			font-size: 1.2em;
 		}
 
 			ul.icons li:last-child {
