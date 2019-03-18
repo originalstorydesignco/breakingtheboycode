@@ -450,7 +450,24 @@
 			}
 		}
 
+		@media screen and (max-width: 30rem) {
+			.home-title {
+				font-size: 1.5rem;
+				font-weight: 900;
+			}
+		}
+
 		@media screen and (max-height: 20rem) {
+			.home-quote {
+				display: none;
+			}
+
+			.home-title {
+				display: block;
+			}
+		}
+
+		@media screen and (max-height: 30rem) and (max-width: 40rem) {
 			.home-quote {
 				display: none;
 			}
