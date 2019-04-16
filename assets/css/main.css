@@ -322,7 +322,7 @@
 	h1.landing {
 		text-align: justify;
 		text-align-last: justify;
-		width: 50%;
+		width: 35%;
 		margin: 0 auto;
 	}
 
@@ -334,7 +334,7 @@
 
 		@media screen and (max-width: 60em) {
 			h1.landing {
-				width: 80%;
+				width: 60%;
 			}
 		}
 
@@ -350,6 +350,10 @@
 				max-height: 80%;
 			}
 		}
+
+	img.landing-logo {
+		padding-bottom: 2rem;
+	}
 
 	span.landing {
 		padding: 0 2rem;
