@@ -758,9 +758,17 @@
 		font-weight: 200;
 	}
 
-.box:hover #mc_embed_signup input.button {
-	background-color: #95a4a3;
-}
+		#mc_embed_signup input.black {
+			background-color: #151515;
+		}
+
+	.box:hover #mc_embed_signup input.button {
+		background-color: #95a4a3;
+	}
+
+		#mc_embed_signup input.black:hover {
+			background-color: #fd6b35;
+		}
 
 	#mc_embed_signup input.email {
 		width: 18.5rem;
