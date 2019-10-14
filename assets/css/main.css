@@ -375,28 +375,28 @@
 		}
 	}
 
-/* LISTEN */
+/* PAGE */
 
-	h1.listen {
+	h1.page {
 		text-align: justify;
 		text-align-last: justify;
 		width: 80%;
 		margin: 0 auto;
 	}
 
-		ul.listen-final:after {
+		ul.page-final:after {
 			content: "";
 			display: inline-block;
 			width: 100%;
 		}
 
 		@media screen and (max-width: 30rem) {
-			h1.listen {
+			h1.page {
 				text-align: center;
 				text-align-last: center;
 			}
 
-			h1.listen ul li {
+			h1.page ul li {
 				display: block;
 				margin: 0 auto;
 				padding: 1rem 0;
@@ -404,26 +404,26 @@
 			}
 		}
 
-	.listen-top {
+	.page-top {
 		position: absolute;
 		left: 7%;
 		top: 2rem;
 		padding-left: 1rem;
 	}
 
-	.listen-bottom {
+	.page-bottom {
 		position: absolute;
 		left: 7%;
 		bottom: 2rem;
 		padding-left: 1rem;
 	}
 
-		.soundcloud-listen iframe {
+		.footer-page iframe {
 			width: 28rem;
 		}
 
 			@media screen and (max-width: 35rem) {
-				.soundcloud-listen iframe {
+				.footer-page iframe {
 					width: 100%;
 				}
 			}
@@ -826,13 +826,34 @@
 		list-style: none;
 	}
 
-		ul.listen li {
+		ul.page li {
 			font-size: 3rem;
 		}
 
-		ul.listen li .icon:before {
+		ul.page li .icon:before {
 			font-size: 3rem;
 		}
+
+			@media screen and (max-width: 900px) {
+				ul.connect li {
+					font-size: 2rem;
+				}
+
+				ul.page li .icon:before {
+					font-size: 2rem;
+				}
+			}
+
+			@media screen and (max-width: 500px) {
+				ul.connect li {
+					font-size: 1.5rem;
+				}
+
+				ul.page li .icon:before {
+					font-size: 1.5rem;
+				}
+			}
+
 
 		ul.box li {
 			font-size: 2rem;
