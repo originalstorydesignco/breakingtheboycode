@@ -264,6 +264,10 @@
 			color: #fff;
 		}
 
+span.white {
+	color: #fff;
+}
+
 	/* ALIGNMENT */
 
 		.text-align-left {
