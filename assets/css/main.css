@@ -423,10 +423,10 @@ span.white {
 	}
 
 		.footer-page iframe {
-			width: 28rem;
+			width: 40rem;
 		}
 
-			@media screen and (max-width: 35rem) {
+			@media screen and (max-width: 50rem) {
 				.footer-page iframe {
 					width: 100%;
 				}
@@ -657,12 +657,12 @@ span.white {
 		}
 
 		.bg-photo-01 {
-			background: url(../../img/photos/annie-spratt-365617-1920-web.jpg) no-repeat center;
+			background: url(../../img/photos/annie-spratt-365617-2500-web.jpg) no-repeat center;
 			background-size: cover;
 		}
 
 		.bg-photo-02 {
-			background: url(../../img/photos/IMG_1673-JCR-1920-web.jpg) no-repeat center;
+			background: url(../../img/photos/IMG_1673-JCR-2500-web.jpg) no-repeat center;
 			background-size: cover;
 		}
 
@@ -867,21 +867,21 @@ span.white {
 			font-size: 2rem;
 		}
 
-		ul.contact li {
+		ul.connect li {
 			font-size: 2rem;
 		}
 
 			@media screen and (max-width: 60rem) {
-				ul.contact {
+				ul.connect {
 					line-height: 2.5;
 				}
 				
-				ul.contact li {
+				ul.connect li {
 					font-size: 1.2rem;
 				}
 			}
 
-		ul.contact li .icon:before {
+		ul.connect li .icon:before {
 			font-size: 1.25rem;
 		}
 
