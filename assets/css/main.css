@@ -1,4 +1,4 @@
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:300,700,800");
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300,700,800|Trade+Winds&display=swap");
 
 /* RESET */
 
@@ -283,7 +283,7 @@ span.white {
 		.text-align-justify {
 			text-align: justify;
 			text-align-last: justify;
-		}
+        }
 
 /* LANDING */
 
@@ -671,6 +671,11 @@ span.white {
 			background-size: cover;
 		}
 
+        .bg-photo-04 {
+            background: url(../../img/photos/IMG_1227-2500-web.jpg) no-repeat center;
+            background-size: cover;
+        }
+
 /* FOOTER */
 
 	.footer {
@@ -741,6 +746,30 @@ span.white {
 				display: none;
 			}
 
+		}
+
+/* PAGES */
+
+    .poetry-header {
+		max-width: 50rem;
+		margin: 5rem auto;
+		padding: 0;
+		background: url(../../img/photos/IMG_1227-2500-web.jpg) no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+
+		.poetry-header h1.poetry-text {
+			margin: 0 auto;
+			padding: 0;
+			background: #fff;
+			color: #000;
+			font-size: 12rem;
+            font-weight: 800;
+			text-align: center;
+			text-align-last: center;
+			line-height: 0.8;
+			mix-blend-mode: lighten;
 		}
 
 /* SUBSCRIBE */ 
