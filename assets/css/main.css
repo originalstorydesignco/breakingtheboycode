@@ -234,7 +234,8 @@
 			}
 
 				.white a:hover {
-					color: #fd6b35;
+					color: #fff;
+                    opacity: 0.8;
 				}
 
 				.white a.no-hover {
@@ -326,7 +327,7 @@ span.white {
 	h1.landing {
 		text-align: justify;
 		text-align-last: justify;
-		width: 35%;
+		width: 50%;
 		margin: 0 auto;
 	}
 
@@ -363,7 +364,7 @@ span.white {
 		padding: 0 2rem;
 	}
 
-	@media screen and (max-width: 40rem) {
+	@media screen and (max-width: 50rem) {
 		h1.landing {
 			text-align: center;
 			text-align-last: center;
@@ -867,9 +868,9 @@ span.white {
 			font-size: 3rem;
 		}
 
-			@media screen and (max-width: 900px) {
+			@media screen and (max-width: 1000px) {
 				ul.connect li {
-					font-size: 2rem;
+					font-size: 2rem!important;
 				}
 
 				ul.page li .icon:before {
@@ -879,11 +880,11 @@ span.white {
 
 			@media screen and (max-width: 500px) {
 				ul.connect li {
-					font-size: 1.5rem;
+					font-size: 2rem;
 				}
 
 				ul.page li .icon:before {
-					font-size: 1.5rem;
+					font-size: 2rem;
 				}
 			}
 
@@ -897,7 +898,7 @@ span.white {
 		}
 
 		ul.connect li {
-			font-size: 2rem;
+			font-size: 3rem;
 		}
 
 			@media screen and (max-width: 60rem) {
@@ -911,7 +912,7 @@ span.white {
 			}
 
 		ul.connect li .icon:before {
-			font-size: 1.25rem;
+			font-size: 3rem;
 		}
 
 		@media screen and (max-width: 900px) {
