@@ -222,6 +222,14 @@
 			font-size: 5rem;
 		}
 
+        .font-size-12rem {
+            font-size: 12rem;
+        }
+
+        .font-size-16rem {
+            font-size: 16rem;
+        }
+
 	/* COLOR */
 
 		.white {
@@ -761,8 +769,7 @@ span.white {
 			margin: 0 auto;
 			padding: 0;
 			background: #fff;
-			color: #000;
-			font-size: 12rem;
+			color: #151515;
             font-weight: 800;
 			text-align: center;
 			text-align-last: center;
