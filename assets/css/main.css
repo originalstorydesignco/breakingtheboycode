@@ -755,9 +755,6 @@ span.white {
 		max-width: 50rem;
 		margin: 5rem auto;
 		padding: 0;
-		background: url(../../img/photos/IMG_1227-2500-web.jpg) no-repeat;
-		background-position: center;
-		background-size: cover;
 	}
 
 		.poetry-header h1.poetry-text {
@@ -898,17 +895,10 @@ span.white {
 		}
 
 		ul.connect li {
-			font-size: 3rem;
+			font-size: 3rem!important;
 		}
 
 			@media screen and (max-width: 60rem) {
-				ul.connect {
-					line-height: 2.5;
-				}
-				
-				ul.connect li {
-					font-size: 1.2rem;
-				}
 			}
 
 		ul.connect li .icon:before {
