@@ -583,6 +583,35 @@ span.white {
 		text-align: center;
 	}
 
+
+
+    .box-grid {
+        display: grid;
+        grid-template-columns: calc(100% / 3) calc(100% / 3) calc(100% / 3);
+        grid-template-rows: 39em 39em 39em;
+        margin: 0;
+        padding: 0;
+    }
+
+        .grid-item {
+            opacity: 0.8;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+            .grid-item:hover {
+                opacity: 1;
+            }
+
+            .grid-item img {
+                min-width: 102%;
+                min-height: 102%;
+                max-height: 100%;
+                margin-left: 50%;
+                transform: translateX(-50%);
+            }
+
 	a.box-link {
 		text-decoration: none;
 	}
