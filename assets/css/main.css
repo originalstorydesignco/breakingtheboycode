@@ -222,6 +222,10 @@
 			font-size: 5rem;
 		}
 
+		.font-size-7rem {
+			font-size: 7rem;
+		}
+
         .font-size-12rem {
             font-size: 12rem;
         }
@@ -582,6 +586,63 @@ span.white {
 		vertical-align: middle;
 		text-align: center;
 	}
+
+    .grid-social {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(calc(100% / 2), 1fr));
+        grid-template-rows: 36em;
+        margin: 0;
+        padding: 0;
+    }
+
+        .social-youtube {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            flex-direction: column;
+            background: #515850;
+            background-size: cover;
+            background-position: center;
+            opacity: 0.8;
+            max-height: 36em;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            text-align: center;
+        }
+
+            .social-youtube:hover {
+                opacity: 1;
+            }
+
+            .social-youtube a:hover {
+                opacity: 1;
+            }
+
+        .social-vimeo {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            flex-direction: column;
+            background: #7A8D8C;
+            background-size: cover;
+            background-position: center;
+            opacity: 0.8;
+            max-height: 36em;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            text-align: center;
+        }
+
+            .social-vimeo:hover {
+                opacity: 1;
+            }
+
+            .social-vimeo a:hover {
+                opacity: 1;
+            }
+
 
     .box-grid {
         display: grid;
