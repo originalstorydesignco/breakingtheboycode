@@ -340,7 +340,7 @@ span.white {
 		text-align: justify;
 		text-align-last: justify;
 		width: 50%;
-		margin: 0 auto;
+		margin: -0.25em auto;
 	}
 
 		h1.landing:after {
